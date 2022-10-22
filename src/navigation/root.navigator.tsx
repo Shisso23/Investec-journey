@@ -13,7 +13,7 @@ const AppContainer: React.FC = () => {
   const {username} = useSelector(userSelector);
   return (
     <NavigationContainer>
-      <RootStack.Navigator screenOptions={{headerShown: true}}>
+      <RootStack.Navigator screenOptions={{headerShown: false}}>
         {username.length > 0 ? (
           <RootStack.Screen name="APP" component={AppNavigator} />
         ) : (

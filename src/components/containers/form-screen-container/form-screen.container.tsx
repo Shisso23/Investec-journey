@@ -11,7 +11,6 @@ const FormScreenContainer: React.FC<FormScreenContainerProps> = props => (
   <KeyboardAwareScrollView
     contentContainerStyle={props.contentContainerStyle}
     keyboardShouldPersistTaps="handled"
-    enableOnAndroid
     extraHeight={25}
     extraScrollHeight={25}
     {...props}>
